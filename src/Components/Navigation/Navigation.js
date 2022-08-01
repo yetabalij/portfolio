@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Navigation = () => {
   return (
-    <div className="absolute top-[85%] left-[50%] translate-x-[-50%] bg-red-200 px-6 py-4 rounded-full">
+    <div className="fixed top-[85%] left-[50%] translate-x-[-50%] bg-red-200 px-6 py-4 rounded-full">
       <ul className="flex gap-2">
         <li>
           <Link to="home" spy={true} smooth={true}>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Skills = () => {
-  return <section>Skills</section>;
+  return <section id="skill">Skills</section>;
 };
 
 export default Skills;
