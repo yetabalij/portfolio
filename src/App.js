@@ -9,7 +9,7 @@ import Navigation from "./Components/Navigation/Navigation";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-primary-color text-white">
       <Navigation />
       <Home />
       <About />
