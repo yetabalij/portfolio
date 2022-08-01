@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const Navigation = () => {
   return (
-    <div className="fixed top-[85%] left-[50%] translate-x-[-50%] bg-fourth-color text-primary-color px-6 py-3 rounded-full">
+    <div className="fixed top-[85%] left-[50%] translate-x-[-50%] bg-fourth-color text-primary-color px-6 py-3 rounded-full z-10">
       <ul className="flex gap-4">
         <li className="cursor-pointer">
           <Link to="home" spy={true} smooth={true}>
