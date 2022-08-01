@@ -1,36 +1,39 @@
 import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdPersonOutline } from "react-icons/md";
+import { VscTools } from "react-icons/vsc";
+import { GoFileCode } from "react-icons/go";
+import { AiOutlineMail } from "react-icons/ai";
 
 import { Link } from "react-scroll";
 
 const Navigation = () => {
   return (
-    <div className="fixed top-[85%] left-[50%] translate-x-[-50%] bg-fourth-color text-primary-color px-6 py-4 rounded-full">
-      <ul className="flex gap-2">
+    <div className="fixed top-[85%] left-[50%] translate-x-[-50%] bg-fourth-color text-primary-color px-6 py-3 rounded-full">
+      <ul className="flex gap-4">
         <li className="cursor-pointer">
           <Link to="home" spy={true} smooth={true}>
-            <AiOutlineHome />
+            <AiOutlineHome className="text-xl" />
           </Link>
         </li>
         <li className="cursor-pointer">
           <Link to="about" spy={true} smooth={true}>
-            <MdPersonOutline />
+            <MdPersonOutline className="text-xl" />
           </Link>
         </li>
         <li className="cursor-pointer">
           <Link to="skill" spy={true} smooth={true}>
-            Skills
+            <VscTools className="text-xl" />
           </Link>
         </li>
         <li className="cursor-pointer">
           <Link to="project" spy={true} smooth={true}>
-            Projects
+            <GoFileCode className="text-xl" />
           </Link>
         </li>
         <li className="cursor-pointer">
           <Link to="contact" spy={true} smooth={true}>
-            Contacts
+            <AiOutlineMail className="text-xl" />
           </Link>
         </li>
       </ul>
