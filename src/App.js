@@ -5,15 +5,18 @@ import Projects from "./Section/Projects/Projects";
 import Contacts from "./Section/Contacts/Contacts";
 import Footer from "./Components/Footer";
 
+import Navigation from "./Components/Navigation/Navigation";
+
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contacts/>
-      <Footer/>
+      <Navigation />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
