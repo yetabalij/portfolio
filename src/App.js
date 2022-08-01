@@ -9,14 +9,16 @@ import Navigation from "./Components/Navigation/Navigation";
 
 function App() {
   return (
-    <div className="bg-primary-color text-white">
-      <Navigation />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contacts />
-      <Footer />
+    <div className="bg-primary-color text-white relative">
+      <div className="w-[80%] mx-auto">
+        <Navigation />
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contacts />
+        <Footer />
+      </div>
     </div>
   );
 }
