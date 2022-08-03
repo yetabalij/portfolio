@@ -8,7 +8,7 @@ const Home = () => {
       id="home"
     >
       <div className="">
-        <p className="opacity-10 text-[4rem] sm:text-[5.5rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] font-bold tracking-widest">
+        <p className="opacity-[.2] text-[4rem] sm:text-[5.5rem] md:text-[6rem] lg:text-[7rem] xl:text-[8rem] font-bold tracking-widest">
           HELLO
         </p>
         <div className="">
