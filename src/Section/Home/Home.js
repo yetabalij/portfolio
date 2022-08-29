@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="sm:w-1/3 md:w-1/2">
+      <div className="sm:w-[100%] mt-16 sm:mt-5 md:w-1/2">
         <img alt="Ermias" src={Ermias} />
       </div>
     </section>
