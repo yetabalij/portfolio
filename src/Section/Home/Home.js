@@ -47,7 +47,10 @@ const Home = () => {
               />
             </svg>
           </span>
-          <button className="ml-2">Download Cv</button>
+
+          <a href="CV-ErmiasTsegu.pdf" download>
+            <button className="ml-2">Download Cv</button>
+          </a>
         </div>
       </div>
 
