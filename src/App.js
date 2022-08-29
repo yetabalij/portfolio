@@ -10,7 +10,7 @@ import Navigation from "./Components/Navigation/Navigation";
 function App() {
   return (
     <div className="bg-primary-color text-white overflow-auto">
-      <div className="w-[80%] mx-auto relative overflow-auto">
+      <div className="w-[80%] mx-auto overflow-auto">
         <Navigation />
         <Home />
         <About />
