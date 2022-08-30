@@ -4,7 +4,7 @@ import Ermias from "./../../assets/Ermias.png";
 const Home = () => {
   return (
     <section
-      className="sm:flex justify-between align-center mt-10 overflow-hidden h-screen"
+      className="sm:flex justify-between align-center mt-10 overflow-hidden"
       id="home"
     >
       <div className="">
