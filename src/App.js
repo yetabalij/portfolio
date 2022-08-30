@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="bg-primary-color text-white">
       <div className="w-[80%] mx-auto relative">
-        <div className="fixed bottom-[80px] left-[50%] translate-x-[-50%] z-10">
+        <div className="fixed bottom-10 lg:bottom-[80px] md:bottom-10 left-[50%] translate-x-[-50%] z-10">
           <Navigation />
         </div>
         <Home />
