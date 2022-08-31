@@ -51,7 +51,7 @@ const Home = () => {
           <img
             src={Ermias}
             alt="Ermias"
-            className="sm:w-[35%] lg:w-[40%] xl:w-[90%]"
+            className="sm:w-[36.6%] lg:w-[40%] xl:w-[90%]"
           ></img>
         </div>
       </div>
