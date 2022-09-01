@@ -1,13 +1,10 @@
 import React from "react";
+import Title from "../../Components/Navigation/Title";
 
 const About = () => {
   return (
     <section id="about" className="">
-      <div className="flex justify-center mt-20">
-        <h1 className="opacity-[.3] text-[4rem] sm:text-[5.5rem] md:text-[6rem] lg:text-[7rem] xl:text-[10rem] 2xl:text-[11rem] font-bold tracking-widest">
-          ABOUT
-        </h1>
-      </div>
+      <Title title="ABOUT" />
       <div className="md:flex justify-between my-5 lg:my-20 ">
         <div className="md:w-[30%] bg-third-color rounded-md mb-5 lg:mb-0 flex justify-center items-center  px-6 md:px-14 py-10">
           <div className="">
