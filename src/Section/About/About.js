@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../../Components/Navigation/Title";
+import Title from "../../Components/Title";
 
 const About = () => {
   return (
