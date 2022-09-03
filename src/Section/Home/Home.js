@@ -47,7 +47,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="sm:absolute sm:top-10 sm:right-[-27rem] lg:right-[-20rem] xl:right-0">
+        <div className="sm:absolute sm:top-10 sm:right-[-27rem] lg:right-[-20rem] xl:right-[-60px]">
           <img
             src={Ermias}
             alt="Ermias"
