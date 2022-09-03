@@ -1,38 +1,82 @@
 import React from "react";
 import Title from "./../../Components/Title";
-import { BiDesktop } from "react-icons/bi";
-import { AiOutlineCheck } from "react-icons/ai";
+import SkillCard from "../../Components/SkillCard";
+import html5 from "./../../assets/html5.png";
+import ReactIcon3 from "./../../assets/ReactIcon3.png";
+import JavasCriptIcon from "./../../assets/javascript.png";
+import MongoDBIcon from "./../../assets/mongodb.png";
+import NodeJs from "./../../assets/node-js.png";
+import Express from "./../../assets/express.png";
+import ReduxIcon from "./../../assets/redux.png";
+import Css3 from "./../../assets/css3.png";
+import TailwindCss from "./../../assets/tailwind-css.png";
+import BootStarpIcon from "./../../assets/bootstrap.png";
+import GitIcon from "./../../assets/git.png";
+import Linux from "./../../assets/linux.png";
+import MaterialIcon from "./../../assets/material-ui.png";
+import MySql from "./../../assets/mysql.png";
 
 const Skills = () => {
   return (
     <section id="skill">
       <Title title="SKILLS" />
-      <div className="flex justify-center">
-        <div className="grid grid-cols-3 gap-y-4 gap-x-32">
-          <div className=" rounded-xl py-16 px-16 border-2 border-solid border-gradient-to-r from-cyan-500 to-blue-500">
-            <div className="flex justify-center mb-4">
-              <BiDesktop className="text-7xl text-fourth-color" />
-            </div>
-            <div className="flex justify-center">
-              <h1 className="text-3xl font-bold text-fourth-color mb-4">
-                Frontend Skills
-              </h1>
-            </div>
-            <p>
-              Fugiat ipsum ut in fugiat voluptate irure elit ad non voluptate
-              nisi laboris aliqua duis. Do minim incididunt consectetur
-              excepteur consequat amet amet enim Lorem sint sint.
-            </p>
-            <div>
-              <AiOutlineCheck />
-            </div>
-          </div>
-          <div>hello</div>
-          <div>hello</div>
-          <div>hello</div>
-          <div>hello</div>
-          <div>hello</div>
-        </div>
+      <div className="sm:flex justify-center gap-4">
+        <SkillCard>
+          <img src={JavasCriptIcon} />
+        </SkillCard>
+        <SkillCard>
+          <img src={ReactIcon3} />
+        </SkillCard>
+        <SkillCard>
+          <img src={MongoDBIcon} />
+        </SkillCard>
+        <SkillCard>
+          <img src={NodeJs}></img>
+        </SkillCard>
+        <SkillCard>
+          <img src={Express} />
+        </SkillCard>
+      </div>
+
+      <div className="sm:flex justify-center gap-4">
+        <SkillCard>
+          <img src={ReduxIcon} />
+        </SkillCard>
+        <SkillCard>
+          <img src={html5} />
+        </SkillCard>
+        <SkillCard>
+          <img src={Css3} />
+        </SkillCard>
+        <SkillCard>
+          <img src={TailwindCss}></img>
+        </SkillCard>
+      </div>
+      <div className="sm:flex justify-center gap-4">
+        <SkillCard>
+          <img src={MaterialIcon} />
+        </SkillCard>
+        <SkillCard>
+          <img src={BootStarpIcon} />
+        </SkillCard>
+        <SkillCard>
+          <img src={GitIcon} />
+        </SkillCard>
+      </div>
+      <div className="sm:flex justify-center gap-4">
+        <SkillCard>
+          <img src={MySql} />
+        </SkillCard>
+        <SkillCard>
+          <img src={Linux} />
+        </SkillCard>
+      </div>
+      <div className="sm:flex justify-center gap-4">
+        <SkillCard>
+          <span className="text-fourth-color tracking-widest text-4xl flex justify-center items-center">
+            ...
+          </span>
+        </SkillCard>
       </div>
     </section>
   );
