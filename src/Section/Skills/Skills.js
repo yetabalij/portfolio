@@ -21,61 +21,54 @@ const Skills = () => {
     <section id="skill">
       <Title title="SKILLS" />
       <div className="sm:flex justify-center gap-4">
-        <SkillCard>
-          <img src={JavasCriptIcon} />
+        <SkillCard name="Javascript">
+          <img src={JavasCriptIcon} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={ReactIcon3} />
+        <SkillCard name="React">
+          <img src={ReactIcon3} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={MongoDBIcon} />
+        <SkillCard name="MongoDB">
+          <img src={MongoDBIcon} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={NodeJs}></img>
+        <SkillCard name="Node">
+          <img src={NodeJs} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={Express} />
+        <SkillCard name="Express">
+          <img src={Express} alt="" className="w-1/2 text-center" />
         </SkillCard>
       </div>
 
       <div className="sm:flex justify-center gap-4">
-        <SkillCard>
-          <img src={ReduxIcon} />
+        <SkillCard name="Redux">
+          <img src={ReduxIcon} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={html5} />
+        <SkillCard name="HTML5">
+          <img src={html5} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={Css3} />
+        <SkillCard name="CSS3">
+          <img src={Css3} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={TailwindCss}></img>
-        </SkillCard>
-      </div>
-      <div className="sm:flex justify-center gap-4">
-        <SkillCard>
-          <img src={MaterialIcon} />
-        </SkillCard>
-        <SkillCard>
-          <img src={BootStarpIcon} />
-        </SkillCard>
-        <SkillCard>
-          <img src={GitIcon} />
+        <SkillCard name="Tailwind">
+          <img src={TailwindCss} alt="" className="w-1/2 text-center" />
         </SkillCard>
       </div>
       <div className="sm:flex justify-center gap-4">
-        <SkillCard>
-          <img src={MySql} />
+        <SkillCard name="MaterialUI">
+          <img src={MaterialIcon} alt="" className="w-1/2 text-center" />
         </SkillCard>
-        <SkillCard>
-          <img src={Linux} />
+        <SkillCard name="BootStrap">
+          <img src={BootStarpIcon} alt="" className="w-1/2 text-center" />
+        </SkillCard>
+        <SkillCard name="Git">
+          <img src={GitIcon} alt="" className="w-1/2 text-center" />
         </SkillCard>
       </div>
       <div className="sm:flex justify-center gap-4">
-        <SkillCard>
-          <span className="text-fourth-color tracking-widest text-4xl flex justify-center items-center">
-            ...
-          </span>
+        <SkillCard name="MySql">
+          <img src={MySql} alt="" className="w-1/2 text-center" />
+        </SkillCard>
+        <SkillCard name="Linux">
+          <img src={Linux} alt="" className="w-1/2 text-center" />
         </SkillCard>
       </div>
     </section>
