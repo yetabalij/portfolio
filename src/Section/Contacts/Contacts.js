@@ -6,7 +6,7 @@ const Contacts = () => {
     <section id="contact" className="mb-32">
       <Title title="CONTACTS" />
       <div className="flex justify-center">
-        <div class="block p-6 rounded-lg shadow-lg bg-third-color min-w-[400px]">
+        <div class="block p-6 rounded-lg shadow-lg bg-third-color w-full sm:w-[500px]">
           <form>
             <div class="form-group mb-6">
               <input
