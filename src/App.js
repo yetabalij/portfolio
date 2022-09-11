@@ -19,8 +19,8 @@ function App() {
         <Skills />
         <Projects />
         <Contacts />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
