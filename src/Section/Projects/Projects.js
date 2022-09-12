@@ -24,7 +24,7 @@ const Projects = () => {
                 <a
                   className=""
                   href="https://travel-addis.netlify.app/"
-                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visit Project
                 </a>
@@ -52,7 +52,7 @@ const Projects = () => {
                 <a
                   className=""
                   href="http://realtimebook.herokuapp.com/"
-                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visit Project
                 </a>
