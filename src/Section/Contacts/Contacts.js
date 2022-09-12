@@ -1,11 +1,31 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Title from "./../../Components/Title";
 import emailjs from "@emailjs/browser";
+import isEmail from "validator/lib/isEmail";
+import isEmpty from "validator/lib/isEmpty";
 
 const Contacts = () => {
   const form = useRef();
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const messageRef = useRef();
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  console.log(error);
+
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (
+      isEmpty(nameRef.current.value) ||
+      isEmpty(emailRef.current.value) ||
+      isEmpty(messageRef.current.value)
+    ) {
+      return setError("All fields are Required.");
+    }
+    if (!isEmail(emailRef.current.value)) {
+      return setError("Valid Email is Required");
+    }
 
     emailjs
       .sendForm(
@@ -16,19 +36,33 @@ const Contacts = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setMessage(result.text);
         },
         (error) => {
-          console.log(error.text);
+          setMessage(error.text);
         }
       );
+    nameRef.current.value = "";
+    emailRef.current.value = "";
+    messageRef.current.value = "";
+    setError("");
   };
   return (
     <section id="contact" className="mb-32">
       <Title title="CONTACTS" />
       <div className="flex justify-center">
         <div class="block p-6 rounded-lg shadow-lg bg-third-color w-full sm:w-[500px]">
-          <form ref={form} onSubmit={sendEmail}>
+          {message === "OK" && (
+            <div className="bg-green-500 py-2 flex justify-center mb-4 font-bold">
+              Success
+            </div>
+          )}
+          {error && (
+            <div className="bg-red-500 py-2 flex justify-center mb-4 font-bold">
+              {error}
+            </div>
+          )}
+          <form ref={form} onSubmit={sendEmail} noValidate>
             <div class="form-group mb-6">
               <input
                 type="text"
@@ -38,6 +72,7 @@ const Contacts = () => {
                 id="name"
                 name="name"
                 placeholder="Name"
+                ref={nameRef}
               />
             </div>
             <div class="form-group mb-6">
@@ -49,6 +84,7 @@ const Contacts = () => {
                 id="email"
                 name="email"
                 placeholder="Email address"
+                ref={emailRef}
               />
             </div>
             <div class="form-group mb-6">
@@ -60,6 +96,7 @@ const Contacts = () => {
                 name="message"
                 rows="6"
                 placeholder="Message"
+                ref={messageRef}
               ></textarea>
             </div>
             <button
