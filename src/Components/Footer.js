@@ -69,18 +69,18 @@ const Footer = () => {
         <div className="mt-3 sm:mt-0">
           <h3 className="text-fourth-color font-bold">Social Media</h3>
           <div className="flex flex-row gap-2">
-            <a href="https://github.com/yetabalij" target="_blank">
+            <a href="https://github.com/yetabalij" rel="noopener noreferrer">
               <AiFillGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/ermias-tsegu-gizaw"
-              target="_blank"
+              rel="noopener noreferrer"
             >
               <BsLinkedin />
             </a>
             <a
               href="https://www.youtube.com/channel/UC2bDT9qowtiryrmgKm2HbpQ"
-              target="_blank"
+              rel="noopener noreferrer"
             >
               <ImYoutube />
             </a>
