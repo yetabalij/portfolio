@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="md:w-[33%]">
+    <div className="md:w-[33%] min-h-[400px]">
       <div className="bg-third-color rounded-md mb-5 lg:mb-0 flex flex-col justify-center items-center  px-6 md:px-14 py-10">
         <div className="flex justify-center">
           <div className="border-2 border-dotted border-white rounded-full h-[80px] w-[80px] flex justify-center items-center">
