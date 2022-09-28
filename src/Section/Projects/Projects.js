@@ -9,20 +9,54 @@ const Projects = () => {
       <div>
         <Title title="PROJECTS" />
         <div className="flex flex-col gap-y-4">
-          <div className="sm:flex justify-center">
-            <div className="sm:w-1/2 bg-gradient-to-r from-cyan-500 to-[#6387F2] justify-center items-center flex">
-              description
+          <div className="md:flex justify-center">
+            <div className="md:w-1/2 bg-gradient-to-r from-cyan-500 to-[#6387F2] justify-center items-center flex flex-col py-2">
+              <h3 className="text-primary-color text-2xl font-medium">
+                Travel Addis
+              </h3>
+              <p className="px-12 py-4 font-light">
+                Laboris do tempor ex adipisicing ex labore. Eiusmod tempor
+                excepteur anim ut. Eu et nisi officia ea labore. Ad sint do
+                commodo incididunt commodo in nostrud eiusmod aute. Veniam enim
+                velit pariatur ipsum anim.
+              </p>
+              <div className="bg-primary-color py-2 px-10 rounded-full">
+                <a
+                  className=""
+                  href="https://travel-addis.netlify.app/"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </a>
+              </div>
             </div>
-            <div className="sm:w-1/2 ">
+            <div className="md:w-1/2 ">
               <img src={TravelAddis} alt=""></img>
             </div>
           </div>
-          <div className="sm:flex justify-center">
-            <div className="sm:w-1/2">
+          <div className="md:flex justify-center">
+            <div className="md:w-1/2">
               <img src={RealTime} alt="" />
             </div>
-            <div className="sm:w-1/2 bg-gradient-to-r from-cyan-500 to-blue-500 justify-center items-center flex">
-              description
+            <div className="md:w-1/2 bg-gradient-to-r from-cyan-500 to-blue-500 justify-center items-center flex flex-col py-2">
+              <h3 className="text-primary-color text-2xl font-medium">
+                RealTimeBook
+              </h3>
+              <p className="px-12 py-4 font-light">
+                Laboris do tempor ex adipisicing ex labore. Eiusmod tempor
+                excepteur anim ut. Eu et nisi officia ea labore. Ad sint do
+                commodo incididunt commodo in nostrud eiusmod aute. Veniam enim
+                velit pariatur ipsum anim.
+              </p>
+              <div className="bg-primary-color py-2 px-10 rounded-full">
+                <a
+                  className=""
+                  href="http://realtimebook.herokuapp.com/"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </a>
+              </div>
             </div>
           </div>
         </div>
