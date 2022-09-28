@@ -12,7 +12,7 @@ const Card = (props) => {
         <div className="flex justify-center text-fourth-color my-3 text-3xl font-semibold">
           {props.biography}
         </div>
-        <div className="lg:h-[55vh] xl:h-[45vh] 2xl:h-[35vh] overflow-hidden">
+        <div className="lg:h-[60vh] xl:h-[45vh] 2xl:h-[35vh] overflow-hidden">
           <p className="text-sm lg:text-md font-light lg:font-normal tracking-wide leading-6 text-gray-300">
             {props.paragraph}
           </p>
