@@ -13,7 +13,7 @@ const Card = (props) => {
           {props.biography}
         </div>
         <div className="lg:h-[60vh] xl:h-[45vh] 2xl:h-[35vh] overflow-hidden">
-          <p className="text-sm lg:text-md font-light lg:font-normal tracking-wide leading-6 text-gray-300">
+          <p className="text-sm lg:text-md font-light lg:font-normal tracking-tighter leading-6 text-gray-300 text-justify">
             {props.paragraph}
           </p>
         </div>
