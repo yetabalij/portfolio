@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className="">
       <Title title="ABOUT" />
-      <div className="md:flex gap-4 justify-between my-5 lg:my-20 ">
+      <div className="lg:flex gap-4 justify-between my-5 lg:my-20 ">
         <Card
           biography="Biography"
           paragraph="Ermias Tsegu Gizaw was born in Addis Ababa Ethiopia. When his age is mature enough to start education, he joined local primary school and secondary school. Finally, after passing the national education examination he joined Hawassa university located Hawassa Ethiopia."
