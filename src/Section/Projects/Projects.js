@@ -9,8 +9,8 @@ const Projects = () => {
       <div>
         <Title title="PROJECTS" />
         <div className="flex flex-col gap-y-4">
-          <div className="md:flex justify-center">
-            <div className="md:w-1/2 bg-gradient-to-r from-cyan-500 to-[#6387F2] justify-center items-center flex flex-col py-2">
+          <div className="lg:flex justify-center">
+            <div className="lg:w-1/2 bg-gradient-to-r from-cyan-500 to-[#6387F2] justify-center items-center flex flex-col py-2">
               <h3 className="text-primary-color text-2xl font-medium">
                 Travel Addis
               </h3>
@@ -30,15 +30,15 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            <div className="md:w-1/2 ">
+            <div className="lg:w-1/2 ">
               <img src={TravelAddis} alt=""></img>
             </div>
           </div>
-          <div className="md:flex justify-center">
-            <div className="md:w-1/2">
+          <div className="lg:flex justify-center">
+            <div className="lg:w-1/2">
               <img src={RealTime} alt="" />
             </div>
-            <div className="md:w-1/2 bg-gradient-to-r from-cyan-500 to-blue-500 justify-center items-center flex flex-col py-2">
+            <div className="lg:w-1/2 bg-gradient-to-r from-cyan-500 to-blue-500 justify-center items-center flex flex-col py-2">
               <h3 className="text-primary-color text-2xl font-medium">
                 RealTimeBook
               </h3>
