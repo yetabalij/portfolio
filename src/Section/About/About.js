@@ -28,12 +28,7 @@ const About = () => {
         </Card>
         <Card
           biography="Education"
-          paragraph="Pariatur cupidatat magna aliquip sunt commodo. Amet nostrud
-                dolore sint esse adipisicing exercitation laboris sunt
-                incididunt id. Ex occaecat anim commodo culpa qui fugiat dolore
-                et nostrud ea excepteur eiusmod aute. Culpa mollit id nisi velit
-                consectetur tempor. Fugiat anim ad consequat exercitation magna.
-                Voluptate sint ea adipisicing non anim ex ad tempor deserunt."
+          paragraph="Ermias Tsegu has a Bachelor Degree in Electrical and Computer Engineering (Computer Engineering) stream from the Department of Electrical and Computer Engineering at Hawassa University. Currently, He is only expected to complete his research work to complete his Master’s Degree in Computer Science from Addis Ababa Ethiopia."
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
