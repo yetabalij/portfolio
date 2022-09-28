@@ -9,12 +9,7 @@ const About = () => {
       <div className="md:flex gap-4 justify-between my-5 lg:my-20 ">
         <Card
           biography="Biography"
-          paragraph="Est ut officia id ad reprehenderit.Enim aliquip veniam ut quis
-                    consequat nulla reprehenderit eiusmod officia occaecat occaecat. Esse
-                sit commodo labore nulla sint amet officia sint. Minim commodo dolore
-              laborum dolor sit do excepteur irure eiusmod eu aliquip sit
-               exercitation. Anim anim sunt deserunt laborum officia nisi. Non
-                pariatur sint ullamco occaecat quis ut pariatur ipsum."
+          paragraph="Ermias Tsegu Gizaw was born in Addis Ababa Ethiopia. When his age is mature enough to start education, he joined local primary school and secondary school. Finally, after passing the national education examination he joined Hawassa university located Hawassa Ethiopia."
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
