@@ -4,7 +4,7 @@ import Ermias from "./../../assets/Ermias.png";
 const Home = () => {
   return (
     <section id="home" className="relative xl:min-h-screen overflow-hidden">
-      <p className="opacity-[.25] text-[4rem] sm:text-[5.5rem] md:text-[6rem] lg:text-[7rem] xl:text-[10rem] 2xl:text-[20rem] font-bold tracking-widest">
+      <p className="opacity-[.25] text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] xl:text-[12rem] 2xl:text-[16rem] font-bold tracking-widest">
         HELLO
       </p>
 
