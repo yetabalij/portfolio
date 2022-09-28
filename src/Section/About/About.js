@@ -47,12 +47,7 @@ const About = () => {
         </Card>
         <Card
           biography="Experience"
-          paragraph="Est ut officia id ad reprehenderit.Enim aliquip veniam ut quis
-                    consequat nulla reprehenderit eiusmod officia occaecat occaecat. Esse
-                sit commodo labore nulla sint amet officia sint. Minim commodo dolore
-              laborum dolor sit do excepteur irure eiusmod eu aliquip sit
-               exercitation. Anim anim sunt deserunt laborum officia nisi. Non
-                pariatur sint ullamco occaecat quis ut pariatur ipsum."
+          paragraph="After completing his Bachelor’s Degree, Ermias Tsegu joined a governmental organization as a system application developer. Then joined a new team as Application Software developer, and then as a senior Application Software developer. In his career, he used various technologies to solve various software related problems. Currently, He is working as a System and Network Security Auditor and Evaluator.   "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
