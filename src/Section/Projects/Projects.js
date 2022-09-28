@@ -15,10 +15,10 @@ const Projects = () => {
                 Travel Addis
               </h3>
               <p className="px-12 py-4 font-light">
-                Laboris do tempor ex adipisicing ex labore. Eiusmod tempor
-                excepteur anim ut. Eu et nisi officia ea labore. Ad sint do
-                commodo incididunt commodo in nostrud eiusmod aute. Veniam enim
-                velit pariatur ipsum anim.
+                The main purpose of this project is to demonstrate the following
+                skills. Changing UX/UI to Responsive design, Tailwind CSS,
+                Styled-Components, React Component-based Design and development,
+                React Router, among others.
               </p>
               <div className="bg-primary-color py-2 px-10 rounded-full">
                 <a
@@ -43,10 +43,11 @@ const Projects = () => {
                 RealTimeBook
               </h3>
               <p className="px-12 py-4 font-light">
-                Laboris do tempor ex adipisicing ex labore. Eiusmod tempor
-                excepteur anim ut. Eu et nisi officia ea labore. Ad sint do
-                commodo incididunt commodo in nostrud eiusmod aute. Veniam enim
-                velit pariatur ipsum anim.
+                In this Project, a MERN stack software development skill is
+                demonstrated. Skills for the backend and frontend are applied.
+                Responsive design and development, React, Redux, Tailwindcss,
+                protected route, form validation, RESTful API, and other skills
+                are applied.
               </p>
               <div className="bg-primary-color py-2 px-10 rounded-full">
                 <a
