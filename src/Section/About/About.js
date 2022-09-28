@@ -28,7 +28,7 @@ const About = () => {
         </Card>
         <Card
           biography="Education"
-          paragraph="Ermias Tsegu has a Bachelor Degree in Electrical and Computer Engineering (Computer Engineering) stream from the Department of Electrical and Computer Engineering at Hawassa University. Currently, He is only expected to complete his research work to complete his Master’s Degree in Computer Science from Addis Ababa Ethiopia."
+          paragraph="Ermias Tsegu has a Bachelor Degree in Electrical and Computer Engineering (Computer Engineering) stream from the Department of Electrical and Computer Engineering at Hawassa University. Currently, He is only expected to complete his research work to complete his Master’s Degree in Computer Science from Addis Ababa University."
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
