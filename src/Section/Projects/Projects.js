@@ -52,7 +52,7 @@ const Projects = () => {
               <div className="bg-primary-color py-2 px-10 rounded-full">
                 <a
                   className=""
-                  href="http://realtimebook.herokuapp.com/"
+                  href="https://realtimebook.onrender.com/"
                   rel="noopener noreferrer"
                 >
                   Visit Project
